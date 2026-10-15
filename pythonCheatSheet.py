@@ -31,3 +31,9 @@ print(einText)
 # scanf(&i);
 eingeleseneZahl = input("Bitte eine Zahl eingeben: ")
 print("Zahl eingelesen vom Typ", type (eingeleseneZahl))
+#int main(void) {
+#    printf("Hallo Funktion");
+#}
+def main(): {
+    print("Hallo Main!")
+}
