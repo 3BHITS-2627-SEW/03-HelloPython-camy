@@ -16,3 +16,18 @@ print("Datentyp von eineVariable: ", datenTyp)
 eineVariable = 15
 datenTyp = type(eineVariable)
 print("Datentyp von eineVariable: ", datenTyp)
+
+# formatierte Ausgabe
+# C: printf("Zahl lautet %i und ist Cool")
+# print("Zahl lautet %i \n und ist Cool", eineVariable)
+#formatierte Strings
+einText = f"Zahl lautet %i \n und ist Cool!"
+print(einText)
+#alternativText = "Zahl lautet "+(eineVariable**2)+" \n und ist Cool"
+print(einText)
+#print("Alternativ-Text:", alternativText)
+# int i = 0;
+# printf("Bitte Zahl eingeben: \n");
+# scanf(&i);
+eingeleseneZahl = input("Bitte eine Zahl eingeben: ")
+print("Zahl eingelesen vom Typ", type (eingeleseneZahl))
