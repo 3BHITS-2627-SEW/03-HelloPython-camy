@@ -37,3 +37,17 @@ print("Zahl eingelesen vom Typ", type (eingeleseneZahl))
 def main(): {
     print("Hallo Main!")
 }
+# Funktionsaufrug
+main()
+
+##main2()
+
+def main2():
+# starte nur dann eine Funktion,
+# wenn das Programm als Hauptprogramm gestartet wurde
+
+# ->
+    print("HelloFunction2!")
+
+if __name__ == "__main__":
+    main2()
